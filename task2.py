@@ -2,7 +2,6 @@ from tkinter import *
 root = Tk()
 root.geometry("644x600")
 root.title("Calculator by Harshita")
-# root.wm_iconbitmap("1.ico")
 def click(event):
     global scvalue
     text = event.widget.cget("text")
